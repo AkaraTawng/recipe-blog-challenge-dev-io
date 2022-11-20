@@ -1,0 +1,23 @@
+{
+  "name": "recipe-blog-challenge-dev-io",
+  "version": "1.0.0",
+  "description": "dev-io challenge 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkaraTawng/recipe-blog-challenge-dev-io.git"
+  },
+  "keywords": [
+    "ordersArrayTS.push([Pet.Jerboa",
+    "3]);"
+  ],
+  "author": "Christopher Chamberlain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AkaraTawng/recipe-blog-challenge-dev-io/issues"
+  },
+  "homepage": "https://github.com/AkaraTawng/recipe-blog-challenge-dev-io#readme"
+}

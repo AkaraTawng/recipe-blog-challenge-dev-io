@@ -6,13 +6,17 @@ body {
     h1 {
         font-weight: 700;
 
-        &.secondary-h1{
+        &.secondary-h1 {
             font-weight: 400;
         }
     }
 
     label {
         font-weight: 400;
+
+        span.ingredient-highlight {
+            font-weight: 700;
+        }
     }
 
     p {

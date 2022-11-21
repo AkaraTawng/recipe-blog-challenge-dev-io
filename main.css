@@ -15,6 +15,9 @@ body h1.secondary-h1 {
 body label {
   font-weight: 400;
 }
+body label span.ingredient-highlight {
+  font-weight: 700;
+}
 body p {
   font-weight: 400;
 }/*# sourceMappingURL=main.css.map */

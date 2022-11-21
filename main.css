@@ -8,4 +8,7 @@
 
 body h1 {
   font-weight: 700;
+}
+body h1.secondary-h1 {
+  font-weight: 400;
 }/*# sourceMappingURL=main.css.map */

@@ -2,4 +2,8 @@
 
 body {
     font-family: map-get($fonts, 'Montserrat');
+    
+    h1 {
+        font-weight: 700;
+    }
 }

@@ -27,4 +27,12 @@ body .font-weight-500 {
 
 #header-paragraph-icon-flex-container {
   display: flex;
+}
+#header-paragraph-icon-flex-container .material-symbols-outlined {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  transform: rotate(90deg);
+  color: #C4C4C4;
+  margin-top: -0.5%;
 }/*# sourceMappingURL=main.css.map */

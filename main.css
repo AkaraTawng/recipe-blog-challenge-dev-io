@@ -24,6 +24,10 @@ body p {
 body .font-weight-500 {
   font-weight: 500;
 }
+body #header h1 {
+  margin-left: 3%;
+  margin-top: 7%;
+}
 
 #header-paragraph-icon-flex-container {
   display: flex;

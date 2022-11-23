@@ -35,4 +35,10 @@ body .font-weight-500 {
   transform: rotate(90deg);
   color: #C4C4C4;
   margin-top: -0.5%;
+}
+
+#header img {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */

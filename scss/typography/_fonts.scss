@@ -1,7 +1,7 @@
 @import '../utilities/variables';
 
 body {
-    font-family: map-get($fonts, 'Montserrat');
+    font-family: $montserrat;
     
     h1 {
         font-weight: 700;

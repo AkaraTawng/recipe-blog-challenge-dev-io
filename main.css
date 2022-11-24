@@ -32,20 +32,27 @@ body #header h1 {
   margin-top: 7%;
 }
 
-#header-paragraph-icon-flex-container {
+#header h1 {
+  margin-bottom: 5%;
+}
+#header img {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+}
+#header #header-paragraph-icon-flex-container {
   display: flex;
 }
-#header-paragraph-icon-flex-container .material-symbols-outlined {
+#header #header-paragraph-icon-flex-container p {
+  width: 80%;
+  margin: 0 auto;
+}
+#header #header-paragraph-icon-flex-container .material-symbols-outlined {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   transform: rotate(90deg);
   color: #C4C4C4;
   margin-top: -0.5%;
-}
-
-#header img {
-  display: block;
-  width: 95%;
-  margin: 0 auto;
+  margin-left: 2%;
 }/*# sourceMappingURL=main.css.map */

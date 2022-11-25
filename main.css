@@ -11,6 +11,7 @@ body {
 }
 body h1 {
   font-weight: 700;
+  font-family: "Playfair Display", serif;
 }
 body h1.secondary-h1 {
   font-weight: 400;
@@ -43,6 +44,8 @@ body #header p {
   display: block;
   width: 95%;
   margin: 0 auto;
+  height: 11rem;
+  border-radius: 15px;
 }
 #header #header-paragraph-icon-flex-container {
   display: flex;

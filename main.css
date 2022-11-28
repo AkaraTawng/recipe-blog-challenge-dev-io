@@ -36,7 +36,10 @@ body #header p {
   font-size: 0.6rem;
   padding-bottom: 2rem;
 }
-
+body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .secondary-h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
 #header h1 {
   margin-bottom: 5%;
 }
@@ -63,4 +66,17 @@ body #header p {
   margin-top: -1.6%;
   margin-left: 2%;
   font-weight: 300;
+}
+
+#ingredients {
+  display: flex;
+  flex-direction: column;
+}
+#ingredients #graham-cracker-crust-ingredients-dish-info-flex-container {
+  display: flex;
+  flex-direction: column;
+}
+#ingredients #graham-cracker-crust-ingredients-dish-info-flex-container #dish-info {
+  display: flex;
+  flex-direction: row;
 }/*# sourceMappingURL=main.css.map */

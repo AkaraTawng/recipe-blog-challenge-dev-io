@@ -44,15 +44,27 @@ body {
 
     #ingredients {
 
-
         #graham-cracker-crust-ingredients-dish-info-flex-container {
+            font-family: $montserrat;
+
+            h2 {
+                font-weight: 700;
+                color: #BDBDBD;
+            }
+
+            .dish-info-yields {
+                color: $secondary-color;
+            }
+
+            p {
+                font-weight: 500;
+            }
+
             .secondary-h1 {
                 font-family: $playfair;
                 font-weight: 400;
             }
-            #dish-info {
-
-            }
+            
         }
     }
 

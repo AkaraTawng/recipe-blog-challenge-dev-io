@@ -76,7 +76,7 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .se
   display: flex;
   flex-direction: column;
 }
-#ingredients #graham-cracker-crust-ingredients-dish-info-flex-container #dish-info {
+#ingredients #graham-cracker-crust-ingredients-dish-info-flex-container ul {
   display: flex;
-  flex-direction: row;
+  background-color: orange;
 }/*# sourceMappingURL=main.css.map */

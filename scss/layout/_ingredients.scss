@@ -3,12 +3,12 @@
     flex-direction: column                           ;
 
 #graham-cracker-crust-ingredients-dish-info-flex-container {
-    display: flex;
-    flex-direction: column;
-
-    #dish-info {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+
+        ul {
+            display: flex;
+            background-color: orange;
+        }
     }
-}
 }

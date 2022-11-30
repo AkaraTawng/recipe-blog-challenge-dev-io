@@ -1,0 +1,21 @@
+#graham-cracker-crust-ingredients-dish-info-flex-container {
+    display: flex;
+    flex-direction: column;
+
+    #dish-info {
+        margin: 8% 0 0 5%;
+    }
+
+        ul {
+            display: flex;
+            background-color: orange;
+        }
+
+        .material-symbols-outlined {
+            color: $secondary-color;
+    }
+
+    #yields-flex-container {
+        display: flex;
+    }
+}

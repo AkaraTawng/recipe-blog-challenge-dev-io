@@ -2,13 +2,21 @@
     display: flex;
     flex-direction: column                           ;
 
-#graham-cracker-crust-ingredients-dish-info-flex-container {
-        display: flex;
-        flex-direction: column;
-
-        ul {
+    #graham-cracker-crust-ingredients-dish-info-flex-container {
             display: flex;
-            background-color: orange;
+            flex-direction: column;
+
+            ul {
+                display: flex;
+                background-color: orange;
+            }
+
+            .material-symbols-outlined {
+                color: $secondary-color;
+        }
+
+        #yields-flex-container {
+            display: flex;
         }
     }
 }

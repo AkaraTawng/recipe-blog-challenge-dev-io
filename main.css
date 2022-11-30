@@ -42,12 +42,15 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container {
 body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container h2 {
   font-weight: 700;
   color: #BDBDBD;
+  text-transform: uppercase;
+  font-size: 0.7rem;
 }
-body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .dish-info-yields {
+body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container #yields-servings {
   color: #F2994A;
 }
 body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container p {
   font-weight: 500;
+  font-size: 0.9rem;
 }
 body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .secondary-h1 {
   font-family: "Playfair Display", serif;
@@ -93,4 +96,10 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .se
 #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container ul {
   display: flex;
   background-color: orange;
+}
+#ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .material-symbols-outlined {
+  color: #F2994A;
+}
+#ingredients #graham-cracker-crust-ingredients-dish-info-flex-container #yields-flex-container {
+  display: flex;
 }/*# sourceMappingURL=main.css.map */

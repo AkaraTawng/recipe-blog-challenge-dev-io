@@ -8,7 +8,7 @@
 
         ul {
             display: flex;
-            background-color: orange;
+            // background-color: orange;
 
             li {
                 display: flex;
@@ -20,11 +20,18 @@
             }
         }
 
-        .material-symbols-outlined {
+        .material-symbols-outlined.yields {
             color: $secondary-color;
+            // background-color: blue;
+
     }
 
     #yields-flex-container {
         display: flex;
+        margin-bottom: 8%;
+        position: relative;
+
+        #dish-info-yields-content {
+        }
     }
 }

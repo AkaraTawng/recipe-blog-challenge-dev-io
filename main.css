@@ -103,7 +103,6 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .se
 }
 #graham-cracker-crust-ingredients-dish-info-flex-container ul {
   display: flex;
-  background-color: orange;
 }
 #graham-cracker-crust-ingredients-dish-info-flex-container ul li {
   display: flex;
@@ -112,9 +111,11 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .se
   display: flex;
   flex-direction: column;
 }
-#graham-cracker-crust-ingredients-dish-info-flex-container .material-symbols-outlined {
+#graham-cracker-crust-ingredients-dish-info-flex-container .material-symbols-outlined.yields {
   color: #F2994A;
 }
 #graham-cracker-crust-ingredients-dish-info-flex-container #yields-flex-container {
   display: flex;
+  margin-bottom: 8%;
+  position: relative;
 }/*# sourceMappingURL=main.css.map */

@@ -6,17 +6,6 @@
             display: flex;
             flex-direction: column;
 
-            ul {
-                display: flex;
-                background-color: orange;
-            }
-
-            .material-symbols-outlined {
-                color: $secondary-color;
-        }
-
-        #yields-flex-container {
-            display: flex;
-        }
+            
     }
 }

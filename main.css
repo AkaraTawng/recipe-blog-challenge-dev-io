@@ -105,6 +105,13 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .se
   display: flex;
   background-color: orange;
 }
+#graham-cracker-crust-ingredients-dish-info-flex-container ul li {
+  display: flex;
+}
+#graham-cracker-crust-ingredients-dish-info-flex-container ul li .dish-info-item-container {
+  display: flex;
+  flex-direction: column;
+}
 #graham-cracker-crust-ingredients-dish-info-flex-container .material-symbols-outlined {
   color: #F2994A;
 }

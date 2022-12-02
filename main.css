@@ -114,6 +114,11 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .se
 #graham-cracker-crust-ingredients-dish-info-flex-container .material-symbols-outlined.yields {
   color: #F2994A;
 }
+#graham-cracker-crust-ingredients-dish-info-flex-container .material-symbols-outlined.clock {
+  font-weight: 400;
+  color: #4F4F4F;
+  font-size: 1.2rem;
+}
 #graham-cracker-crust-ingredients-dish-info-flex-container #yields-flex-container {
   display: flex;
   margin-bottom: 8%;

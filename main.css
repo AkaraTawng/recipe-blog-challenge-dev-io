@@ -118,4 +118,7 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .se
   display: flex;
   margin-bottom: 8%;
   position: relative;
+}
+#graham-cracker-crust-ingredients-dish-info-flex-container #yields-flex-container .material-symbols-outlined {
+  align-self: center;
 }/*# sourceMappingURL=main.css.map */

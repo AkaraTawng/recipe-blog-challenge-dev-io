@@ -3,12 +3,15 @@
     flex-direction: column;
 
     #dish-info {
-        margin: 8% 0 0 5%;
+        margin: 8% 0 0 3%;
     }
 
         ul {
             display: flex;
             // background-color: orange;
+            justify-content: space-around;
+            margin-left: -6%;
+          
 
             li {
                 display: flex;
@@ -16,6 +19,10 @@
                 .dish-info-item-container {
                     display: flex;
                     flex-direction: column;
+                }
+
+                .clock {
+                    align-self: center;
                 }
             }
         }
@@ -29,7 +36,8 @@
             &.clock {
                 font-weight: 400;
                 color: #4F4F4F;
-                font-size: 1.2rem;
+                font-size: 1rem;
+                padding-right: 3%;
             }
     }
 
@@ -40,6 +48,8 @@
 
         .material-symbols-outlined {
             align-self: center;
+            font-size: 1.1rem;
+            padding-right: 2%;
         }
     }
 }

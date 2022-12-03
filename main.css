@@ -43,14 +43,16 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container h2 
   font-weight: 700;
   color: #BDBDBD;
   text-transform: uppercase;
-  font-size: 0.7rem;
+  font-size: 0.5rem;
+  white-space: nowrap;
 }
 body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container #yields-servings {
   color: #F2994A;
 }
 body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container p {
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 0.5rem;
+  white-space: nowrap;
 }
 body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .secondary-h1 {
   font-family: "Playfair Display", serif;
@@ -99,10 +101,12 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .se
   flex-direction: column;
 }
 #graham-cracker-crust-ingredients-dish-info-flex-container #dish-info {
-  margin: 8% 0 0 5%;
+  margin: 8% 0 0 3%;
 }
 #graham-cracker-crust-ingredients-dish-info-flex-container ul {
   display: flex;
+  justify-content: space-around;
+  margin-left: -6%;
 }
 #graham-cracker-crust-ingredients-dish-info-flex-container ul li {
   display: flex;
@@ -111,13 +115,17 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .se
   display: flex;
   flex-direction: column;
 }
+#graham-cracker-crust-ingredients-dish-info-flex-container ul li .clock {
+  align-self: center;
+}
 #graham-cracker-crust-ingredients-dish-info-flex-container .material-symbols-outlined.yields {
   color: #F2994A;
 }
 #graham-cracker-crust-ingredients-dish-info-flex-container .material-symbols-outlined.clock {
   font-weight: 400;
   color: #4F4F4F;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  padding-right: 3%;
 }
 #graham-cracker-crust-ingredients-dish-info-flex-container #yields-flex-container {
   display: flex;
@@ -126,4 +134,6 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .se
 }
 #graham-cracker-crust-ingredients-dish-info-flex-container #yields-flex-container .material-symbols-outlined {
   align-self: center;
+  font-size: 1.1rem;
+  padding-right: 2%;
 }/*# sourceMappingURL=main.css.map */

@@ -36,6 +36,17 @@ body #header p {
   font-size: 0.6rem;
   padding-bottom: 2rem;
 }
+body #ingredients {
+  /* ingredients */
+  /* graham cracker crust & cheesecake */
+}
+body #ingredients h1 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+body #ingredients h1.secondary-h1 {
+  font-style: italic;
+}
 body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container {
   font-family: "Montserrat", sans-serif;
 }
@@ -59,6 +70,12 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .se
   font-weight: 400;
 }
 
+/** NOTES
+
+* use clamp for font size
+*
+*
+*/
 #header h1 {
   margin-bottom: 5%;
 }

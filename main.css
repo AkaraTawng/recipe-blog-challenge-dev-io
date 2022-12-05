@@ -38,11 +38,12 @@ body #header p {
 }
 body #ingredients {
   /* ingredients */
+  margin: 0 4%;
   /* graham cracker crust & cheesecake */
 }
 body #ingredients h1 {
   font-size: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
 }
 body #ingredients h1.secondary-h1 {
   font-style: italic;
@@ -118,7 +119,7 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .se
   flex-direction: column;
 }
 #graham-cracker-crust-ingredients-dish-info-flex-container #dish-info {
-  margin: 8% 0 0 3%;
+  margin: 8% 0 10% 0;
 }
 #graham-cracker-crust-ingredients-dish-info-flex-container ul {
   display: flex;

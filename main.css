@@ -122,6 +122,8 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .se
 }
 #ingredients #graham-cracker-crust-ingredients .checkbox-container input[type=checkbox] {
   cursor: pointer;
+  opacity: 0;
+  position: absolute;
 }
 
 #graham-cracker-crust-ingredients-dish-info-flex-container {

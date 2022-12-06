@@ -30,16 +30,24 @@
             label {
                 cursor: pointer;
                 display: flex;
-                // width: 100%
+                align-items: flex-end;
+                // background-color: orange;
+                margin-top: -4%;
+                
+                &#ingredients-label-one {
+                    align-items: flex-start;
+                }
 
                 &::before {
                     content: '';
                     width: 1rem;
                     height: 1rem;
                     border: 1px solid black ;
-                    border-radius: .15em;   
+                    border-radius: 20%;   
                     margin-right: 7px;
                     flex-shrink: 0;
+                     
+                   
                 }
             }
              

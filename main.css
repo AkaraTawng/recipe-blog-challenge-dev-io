@@ -118,6 +118,12 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container lab
   display: flex;
   flex-direction: column;
 }
+#ingredients #graham-cracker-crust-ingredients {
+  margin-bottom: 10%;
+}
+#ingredients #graham-cracker-crust-ingredients #ingredients-label-one {
+  align-items: flex-start;
+}
 #ingredients #graham-cracker-crust-ingredients .checkbox {
   display: inline-flex;
   align-items: flex-start;
@@ -140,12 +146,12 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container lab
 #ingredients #graham-cracker-crust-ingredients .checkbox .checkbox-box {
   min-width: 1.1rem;
   min-height: 1.1rem;
-  border: 2px solid #ccc;
+  border: 1px solid #828282;
   border-radius: 3px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 10px;
+  margin-right: 4%;
 }
 #ingredients #graham-cracker-crust-ingredients .checkbox .checkbox-box::after {
   content: "✔";

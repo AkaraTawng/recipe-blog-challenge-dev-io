@@ -13,52 +13,7 @@
         #ingredients-label-one {
             align-items: flex-start;
         }
-
-        // .checkbox {
-        //     display: inline-flex;
-        //     align-items: flex-start;
-        //     cursor: pointer;
-
-        //     :hover + .checkbox-box {
-        //         background-color: lighten($secondary-color, 20%);
-        //         border-color: lighten($secondary-color, 20%);
-        //     }
-
-        //     .checkbox-input {
-        //     display: none;
-            
-        //         &:checked + .checkbox-box {
-        //             background-color: $secondary-color;
-        //             border-color: $secondary-color;
-
-        //             &::after {
-        //                 opacity: 1;
-        //             }
-        //         }
-        //     }
-            
-        //     .checkbox-box {
-        //         min-width: 1.1rem;
-        //         min-height: 1.1rem;
-        //         border: 1px solid #828282;
-        //         border-radius: 3px;
-        //         display: flex;
-        //         align-items: center;
-        //         justify-content: center;
-        //         margin-right: 4%;
-
-        //         &::after {
-        //             content: '\2714';
-        //             color: white;
-        //             opacity: 0;
-        //         }
-        //     }
-        // }
     }
-}
-
-#cheesecake-ingredients {
-    
 }
 
 .checkbox {

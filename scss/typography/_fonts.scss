@@ -47,20 +47,14 @@ body {
         /* ingredients */
         margin: 0 4%;
         h1 {
-            // color: orange;
             font-size: 1rem;
             margin-bottom: 1.2rem;
         }
 
         /* graham cracker crust & cheesecake */
         h1.secondary-h1 {
-            // color: purple;
             font-style: italic;
         }
-
-        // label {
-        //     font-size: .7rem;
-        // }
         
         #graham-cracker-crust-ingredients-dish-info-flex-container {
             font-family: $montserrat;
@@ -87,11 +81,14 @@ body {
                 font-family: $playfair;
                 font-weight: 400;
             } 
-
-            // label {
-            //     font-size: .7rem;
-            // }
         }
+    }
+}
+
+#instructions {
+    p {
+        font-size: .7rem;
+        padding-left: 8%;
     }
 }
 /** NOTES

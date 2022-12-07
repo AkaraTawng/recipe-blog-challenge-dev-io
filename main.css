@@ -74,6 +74,11 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .se
   font-weight: 400;
 }
 
+#instructions p {
+  font-size: 0.7rem;
+  padding-left: 8%;
+}
+
 /** NOTES
 
 * use clamp for font size

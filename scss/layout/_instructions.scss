@@ -1,9 +1,13 @@
 #instructions {
     ol {
-
+        counter-reset: instructions;   
        li {
-      
-        
+
+          &::before {
+            content: counter(instructions);
+            counter-increment: instructions;
+          }
+          
        }
     }
 }

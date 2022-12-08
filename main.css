@@ -7,6 +7,19 @@
   box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+}
+
+#container {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 3rem;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -82,6 +95,10 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .se
 }
 #instructions #source-aside {
   font-size: 0.7rem;
+}
+
+footer p {
+  font-size: 0.6rem;
 }
 
 /** NOTES
@@ -248,8 +265,25 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .se
 #instructions #source-aside {
   margin-left: 3%;
   margin-top: 5%;
+  margin-bottom: 5%;
   color: #BDBDBD;
 }
 #instructions #source-aside a {
   color: #BDBDBD;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  margin-top: -3rem;
+}
+footer p {
+  color: #828282;
+}
+footer a {
+  color: #828282;
+  font-weight: 600;
+  text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */

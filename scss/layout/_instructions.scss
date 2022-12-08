@@ -8,7 +8,7 @@
             padding-top: 5%;
     
             .instructions-count {
-                
+                display: flex;
                 padding-right: 5%;
                 &::before {
                     content: counter(instructions);
@@ -20,8 +20,9 @@
                     display: flex;
                     border-radius: 3px;
                     color: white;
-                    padding: 20% 20%;
+                    padding: 0 .1rem .3rem .1rem;
                     justify-content: center;
+                    align-items: center;
                 }
             }
         }

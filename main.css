@@ -77,6 +77,9 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .se
 #instructions p {
   font-size: 0.7rem;
 }
+#instructions .instructions-count {
+  font-family: "Playfair Display", serif;
+}
 
 /** NOTES
 
@@ -213,6 +216,7 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .se
   padding-top: 5%;
 }
 #instructions ol li .instructions-count {
+  display: flex;
   padding-right: 5%;
 }
 #instructions ol li .instructions-count::before {
@@ -225,6 +229,7 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .se
   display: flex;
   border-radius: 3px;
   color: white;
-  padding: 20% 20%;
+  padding: 0 0.1rem 0.3rem 0.1rem;
   justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */

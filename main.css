@@ -235,4 +235,7 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .se
   padding: 0 0.1rem 0.3rem 0.1rem;
   justify-content: center;
   align-items: center;
+}
+#instructions ol p {
+  width: 85%;
 }/*# sourceMappingURL=main.css.map */

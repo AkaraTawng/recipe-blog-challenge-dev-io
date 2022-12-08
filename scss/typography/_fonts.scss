@@ -11,13 +11,14 @@ body {
             font-weight: 400;
         }
     }
-
+    
+    .ingredient-highlight {
+            font-weight: 700;
+        }
+        
     label {
         font-weight: 400;
         font-size: .7rem;
-        span.ingredient-highlight {
-            font-weight: 700;
-        }
     }
 
     p {

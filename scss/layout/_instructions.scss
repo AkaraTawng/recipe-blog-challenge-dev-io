@@ -6,6 +6,10 @@
         li {
             display: flex;
             padding-top: 5%;
+
+            .ingredients-instructions-highlight {
+                font-weight: 600;
+            }
     
             .instructions-count {
                 display: flex;

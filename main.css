@@ -80,6 +80,9 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .se
 #instructions .instructions-count {
   font-family: "Playfair Display", serif;
 }
+#instructions #source-aside {
+  font-size: 0.7rem;
+}
 
 /** NOTES
 
@@ -241,4 +244,12 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .se
 }
 #instructions ol p {
   width: 85%;
+}
+#instructions #source-aside {
+  margin-left: 3%;
+  margin-top: 5%;
+  color: #BDBDBD;
+}
+#instructions #source-aside a {
+  color: #BDBDBD;
 }/*# sourceMappingURL=main.css.map */

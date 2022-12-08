@@ -1,13 +1,29 @@
 #instructions {
     ol {
         counter-reset: instructions;   
-       li {
+        padding-left: 3%;
 
-          &::before {
-            content: counter(instructions);
-            counter-increment: instructions;
-          }
-          
-       }
+        li {
+            display: flex;
+            padding-top: 5%;
+    
+            .instructions-count {
+                
+                padding-right: 5%;
+                &::before {
+                    content: counter(instructions);
+                    counter-increment: instructions;
+                    padding-right: 5%;
+                    background-color: $secondary-color;
+                    width: 20px;
+                    height: 20px;
+                    display: flex;
+                    border-radius: 3px;
+                    color: white;
+                    padding: 20% 20%;
+                    justify-content: center;
+                }
+            }
+        }
     }
 }

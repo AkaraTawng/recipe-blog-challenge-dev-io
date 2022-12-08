@@ -206,8 +206,25 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .se
 
 #instructions ol {
   counter-reset: instructions;
+  padding-left: 3%;
 }
-#instructions ol li::before {
+#instructions ol li {
+  display: flex;
+  padding-top: 5%;
+}
+#instructions ol li .instructions-count {
+  padding-right: 5%;
+}
+#instructions ol li .instructions-count::before {
   content: counter(instructions);
   counter-increment: instructions;
+  padding-right: 5%;
+  background-color: #F2994A;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  border-radius: 3px;
+  color: white;
+  padding: 20% 20%;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */

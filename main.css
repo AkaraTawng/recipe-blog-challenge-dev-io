@@ -217,7 +217,7 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .se
 }
 #instructions ol li .instructions-count {
   display: flex;
-  padding-right: 5%;
+  padding-right: 3%;
 }
 #instructions ol li .instructions-count::before {
   content: counter(instructions);

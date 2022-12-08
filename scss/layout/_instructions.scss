@@ -9,7 +9,7 @@
     
             .instructions-count {
                 display: flex;
-                padding-right: 5%;
+                padding-right: 3%;
                 &::before {
                     content: counter(instructions);
                     counter-increment: instructions;

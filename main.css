@@ -26,6 +26,7 @@ body {
 body h1 {
   font-weight: 700;
   font-family: "Playfair Display", serif;
+  font-size: clamp(1.2rem, 0.04rem + 5.8vw, 7rem);
 }
 body h1.secondary-h1 {
   font-weight: 400;

@@ -1,9 +1,18 @@
 #graham-cracker-crust-ingredients-dish-info-flex-container {
     display: flex;
     flex-direction: column;
+    @include laptop {
+        flex-direction: row-reverse;      
+    }
 
     #dish-info {
         margin: 8% 0 10% 0;
+        @include laptop {
+            box-shadow: 0px 0px 10px 1px rgb(213, 213, 213); 
+            padding: 2% 2%;
+            border-radius: 7px;
+
+        }
     }
 
         ul {
@@ -11,6 +20,10 @@
             // background-color: orange;
             justify-content: space-around;
             margin-left: -6%;
+            @include laptop {
+                flex-direction: column;
+                
+            }
           
 
             li {

@@ -26,7 +26,6 @@ body {
 body h1 {
   font-weight: 700;
   font-family: "Playfair Display", serif;
-  font-size: clamp(1.2rem, 0.04rem + 5.8vw, 7rem);
 }
 body h1.secondary-h1 {
   font-weight: 400;
@@ -47,9 +46,11 @@ body .font-weight-500 {
 body #header h1 {
   margin-left: 3%;
   margin-top: 7%;
+  font-size: clamp(1.2rem, 0.64rem + 2.8vw, 4rem);
+  color: orange;
 }
 body #header p {
-  font-size: 0.6rem;
+  font-size: clamp(0.6rem, 0.46rem + 0.7vw, 1.3rem);
   padding-bottom: 2rem;
   font-style: italic;
 }

@@ -6,7 +6,6 @@ body {
     h1 {
         font-weight: 700;
         font-family: $playfair;
-        font-size: clamp(1.2rem, 0.0400rem + 5.8000vw, 7rem);
 
         &.secondary-h1 {
             font-weight: 400;
@@ -35,10 +34,12 @@ body {
         h1 {
             margin-left: 3%;
             margin-top: 7%; 
+            font-size: clamp(1.2rem, 0.6400rem + 2.8000vw, 4rem);
+            color: orange;
         }
 
         p {
-            font-size: .6rem;
+            font-size: clamp(0.6rem, 0.4600rem + 0.7000vw, 1.3rem);
             padding-bottom: 2rem;
             font-style: italic;
         }

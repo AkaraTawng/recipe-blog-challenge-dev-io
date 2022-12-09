@@ -14,10 +14,7 @@ body {
 
     label {
         font-weight: 400;
-
-        span.ingredient-highlight {
-            font-weight: 700;
-        }
+        font-size: clamp(0.7rem, 0.5000rem + 1.0000vw, 1.7rem);
     }
 
     p {

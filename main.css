@@ -47,7 +47,6 @@ body #header h1 {
   margin-left: 3%;
   margin-top: 7%;
   font-size: clamp(1.2rem, 0.64rem + 2.8vw, 4rem);
-  color: orange;
 }
 body #header p {
   font-size: clamp(0.6rem, 0.46rem + 0.7vw, 1.3rem);
@@ -116,8 +115,10 @@ footer p {
   display: block;
   width: 95%;
   margin: 0 auto;
-  height: 11rem;
+  height: auto;
   border-radius: 15px;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 #header #header-paragraph-icon-flex-container {
   display: flex;

@@ -35,7 +35,7 @@ body .ingredient-highlight {
 }
 body label {
   font-weight: 400;
-  font-size: 0.7rem;
+  font-size: clamp(0.7rem, 0.5rem + 1vw, 1.7rem);
 }
 body p {
   font-weight: 400;

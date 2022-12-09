@@ -18,7 +18,7 @@ body {
         
     label {
         font-weight: 400;
-        font-size: .7rem;
+        font-size: clamp(0.7rem, 0.5000rem + 1.0000vw, 1.7rem);
     }
 
     p {

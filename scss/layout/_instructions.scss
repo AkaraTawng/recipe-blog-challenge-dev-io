@@ -1,0 +1,53 @@
+#instructions {
+
+    h1 {
+        margin-left: 3%;
+    }
+    
+    ol {
+        counter-reset: instructions;   
+        padding-left: 3%;
+
+        li {
+            display: flex;
+            padding-top: 5%;
+
+            .ingredients-instructions-highlight {
+                font-weight: 600;
+            }
+    
+            .instructions-count {
+                display: flex;
+                padding-right: 3%;
+                &::before {
+                    content: counter(instructions);
+                    counter-increment: instructions;
+                    padding-right: 5%;
+                    background-color: $secondary-color;
+                    width: 20px;
+                    height: 20px;
+                    display: flex;
+                    border-radius: 3px;
+                    color: white;
+                    padding: 0 .1rem .3rem .1rem;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+
+        p { 
+            width: 85%;
+        }
+    }
+
+    #source-aside {
+            margin-left: 3%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            color: #BDBDBD;
+        a {
+            color: #BDBDBD;
+        }
+    }
+}

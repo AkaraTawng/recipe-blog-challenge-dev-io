@@ -1,0 +1,16 @@
+footer {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 3rem;
+margin-top: -3rem;
+        p {
+            color: #828282;
+        }
+
+    a {
+        color: #828282;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+}

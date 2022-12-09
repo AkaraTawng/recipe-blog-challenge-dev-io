@@ -7,6 +7,19 @@
   box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+}
+
+#container {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 3rem;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -17,15 +30,18 @@ body h1 {
 body h1.secondary-h1 {
   font-weight: 400;
 }
+body .ingredient-highlight {
+  font-weight: 700;
+}
 body label {
   font-weight: 400;
-  font-size: clamp(0.7rem, 0.5rem + 1vw, 1.7rem);
+  font-size: 0.7rem;
 }
 body p {
   font-weight: 400;
 }
 body .font-weight-500 {
-  font-weight: 500;
+  font-weight: 600;
 }
 body #header h1 {
   margin-left: 3%;
@@ -70,8 +86,19 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .se
   font-family: "Playfair Display", serif;
   font-weight: 400;
 }
-body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container label {
+
+#instructions p {
   font-size: 0.7rem;
+}
+#instructions .instructions-count {
+  font-family: "Playfair Display", serif;
+}
+#instructions #source-aside {
+  font-size: 0.7rem;
+}
+
+footer p {
+  font-size: 0.6rem;
 }
 
 /** NOTES
@@ -122,26 +149,27 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container lab
 #ingredients #graham-cracker-crust-ingredients #ingredients-label-one {
   align-items: flex-start;
 }
-#ingredients #graham-cracker-crust-ingredients .checkbox {
+
+.checkbox {
   display: inline-flex;
   align-items: flex-start;
   cursor: pointer;
 }
-#ingredients #graham-cracker-crust-ingredients .checkbox :hover + .checkbox-box {
+.checkbox :hover + .checkbox-box {
   background-color: #f9cfa9;
   border-color: #f9cfa9;
 }
-#ingredients #graham-cracker-crust-ingredients .checkbox .checkbox-input {
+.checkbox .checkbox-input {
   display: none;
 }
-#ingredients #graham-cracker-crust-ingredients .checkbox .checkbox-input:checked + .checkbox-box {
+.checkbox .checkbox-input:checked + .checkbox-box {
   background-color: #F2994A;
   border-color: #F2994A;
 }
-#ingredients #graham-cracker-crust-ingredients .checkbox .checkbox-input:checked + .checkbox-box::after {
+.checkbox .checkbox-input:checked + .checkbox-box::after {
   opacity: 1;
 }
-#ingredients #graham-cracker-crust-ingredients .checkbox .checkbox-box {
+.checkbox .checkbox-box {
   min-width: 1.1rem;
   min-height: 1.1rem;
   border: 1px solid #828282;
@@ -151,7 +179,7 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container lab
   justify-content: center;
   margin-right: 4%;
 }
-#ingredients #graham-cracker-crust-ingredients .checkbox .checkbox-box::after {
+.checkbox .checkbox-box::after {
   content: "✔";
   color: white;
   opacity: 0;
@@ -197,4 +225,65 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container lab
   align-self: center;
   font-size: 1.1rem;
   padding-right: 2%;
+}
+
+#instructions h1 {
+  margin-left: 3%;
+}
+#instructions ol {
+  counter-reset: instructions;
+  padding-left: 3%;
+}
+#instructions ol li {
+  display: flex;
+  padding-top: 5%;
+}
+#instructions ol li .ingredients-instructions-highlight {
+  font-weight: 600;
+}
+#instructions ol li .instructions-count {
+  display: flex;
+  padding-right: 3%;
+}
+#instructions ol li .instructions-count::before {
+  content: counter(instructions);
+  counter-increment: instructions;
+  padding-right: 5%;
+  background-color: #F2994A;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  border-radius: 3px;
+  color: white;
+  padding: 0 0.1rem 0.3rem 0.1rem;
+  justify-content: center;
+  align-items: center;
+}
+#instructions ol p {
+  width: 85%;
+}
+#instructions #source-aside {
+  margin-left: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: #BDBDBD;
+}
+#instructions #source-aside a {
+  color: #BDBDBD;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  margin-top: -3rem;
+}
+footer p {
+  color: #828282;
+}
+footer a {
+  color: #828282;
+  font-weight: 600;
+  text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */

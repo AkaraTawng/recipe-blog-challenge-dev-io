@@ -11,10 +11,14 @@ body {
             font-weight: 400;
         }
     }
-
+    
+    .ingredient-highlight {
+            font-weight: 700;
+        }
+        
     label {
         font-weight: 400;
-        font-size: clamp(0.7rem, 0.5000rem + 1.0000vw, 1.7rem);
+        font-size: .7rem;
     }
 
     p {
@@ -22,7 +26,7 @@ body {
     }
 
     .font-weight-500{
-        font-weight: 500;
+        font-weight: 600;
     }
 
     #header {
@@ -44,16 +48,15 @@ body {
         /* ingredients */
         margin: 0 4%;
         h1 {
-            // color: orange;
             font-size: 1rem;
             margin-bottom: 1.2rem;
         }
 
         /* graham cracker crust & cheesecake */
         h1.secondary-h1 {
-            // color: purple;
             font-style: italic;
         }
+        
         #graham-cracker-crust-ingredients-dish-info-flex-container {
             font-family: $montserrat;
 
@@ -63,7 +66,6 @@ body {
                 text-transform: uppercase;
                 font-size: .5rem;
                 white-space: nowrap;
-                // color: blue;
             }
 
             #yields-servings {
@@ -74,30 +76,34 @@ body {
                 font-weight: 500;
                 font-size: .5rem;
                 white-space: nowrap;
-                // color: blue;
             }
 
             .secondary-h1 {
                 font-family: $playfair;
                 font-weight: 400;
             } 
-
-            label {
-                font-size: .7rem;
-            }
         }
+    }
+}
 
-        // #graham-cracker-crust-ingredients {
-        //     h1.secondary-h1 {
-        //         color: purple;
-        //     }
-        // }
-        // #graham-cracker-crust-ingredients {
-        //     h1.secondary-h1 {
-        //         color: purple;
-        //     }
-        // }
+#instructions {
+    p {
+        font-size: .7rem;
+    }
 
+    .instructions-count {
+        font-family: $playfair;
+    }
+
+    #source-aside {
+        font-size: .7rem;
+    }
+}
+
+footer {
+    
+    p {
+        font-size: .6rem;    
     }
 }
 /** NOTES

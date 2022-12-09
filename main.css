@@ -58,6 +58,7 @@ body #header p {
   padding-bottom: 2rem;
   font-style: italic;
   font-weight: lighter;
+  margin-top: -1%;
 }
 @media screen and (min-width: 400px) {
   body #header p {
@@ -71,8 +72,11 @@ body #header p {
 }
 @media screen and (min-width: 1280px) {
   body #header p {
-    margin-top: -1.6%;
+    margin-top: -1%;
   }
+}
+body #header i.material-symbols-outlined {
+  font-size: clamp(1.1rem, 0.2rem + 4vw, 2.3rem);
 }
 body #ingredients {
   /* ingredients */

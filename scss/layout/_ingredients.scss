@@ -1,6 +1,10 @@
 #ingredients {
     display: flex;
     flex-direction: column;
+    
+    h1#ingredients-h1 {
+        margin-bottom: 1rem;
+    }
 
     // #graham-cracker-crust-ingredients-dish-info-flex-container {
     //         display: flex;

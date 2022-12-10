@@ -60,9 +60,6 @@ body {
     }
 
     #ingredients {
-        h1#ingredients-h1 {
-            margin-bottom: 1rem;
-        }
 
         /* ingredients */
         margin: 0 4%;
@@ -95,21 +92,13 @@ body {
                 font-size: .5rem;
                 white-space: nowrap;
             }
-
-            .secondary-h1 {
-                font-family: $playfair;
-                font-weight: 400;
-            } 
         }
     }
 }
 
 #instructions {
-    margin-top: 1.5rem;
+    margin-top: 3rem;
 
-    h1 {
-        margin-bottom: 1rem;
-    }
     p {
         font-size: .7rem;
     }

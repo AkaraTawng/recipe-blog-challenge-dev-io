@@ -82,9 +82,6 @@ body #ingredients {
   /* ingredients */
   margin: 0 4%;
 }
-body #ingredients h1#ingredients-h1 {
-  margin-bottom: 1rem;
-}
 body #ingredients h1.ingredient-title, body #ingredients h2.ingredient-title {
   font-size: 1rem;
   margin-bottom: 1.2rem;
@@ -111,16 +108,9 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container p {
   font-size: 0.5rem;
   white-space: nowrap;
 }
-body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container .secondary-h1 {
-  font-family: "Playfair Display", serif;
-  font-weight: 400;
-}
 
 #instructions {
-  margin-top: 1.5rem;
-}
-#instructions h1 {
-  margin-bottom: 1rem;
+  margin-top: 3rem;
 }
 #instructions p {
   font-size: 0.7rem;
@@ -175,6 +165,9 @@ footer p {
 #ingredients {
   display: flex;
   flex-direction: column;
+}
+#ingredients h1#ingredients-h1 {
+  margin-bottom: 1rem;
 }
 #ingredients #graham-cracker-crust-ingredients {
   margin-bottom: 10%;
@@ -280,11 +273,7 @@ footer p {
 #graham-cracker-crust-ingredients-dish-info-flex-container #yields-flex-container .material-symbols-outlined {
   align-self: center;
   font-size: 1.1rem;
-  padding-right: 2%;
-}
-
-#ingredients-h1 {
-  display: block;
+  padding-right: 1%;
 }
 
 #instructions h1 {

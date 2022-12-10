@@ -7,7 +7,7 @@ body {
         font-weight: 700;
         font-family: $playfair;
 
-        &.secondary-h1 {
+        &.secondary-h {
             font-weight: 400;
         }
     }
@@ -60,22 +60,25 @@ body {
     }
 
     #ingredients {
-        /* ingredients */
-        margin: 0 4%;
-        h1 {
-            font-size: 1rem;
-            margin-bottom: 1.2rem;
+        h1#ingredients-h1 {
+            margin-bottom: 1rem;
         }
 
-        /* graham cracker crust & cheesecake */
-        h1.secondary-h1 {
+        /* ingredients */
+        margin: 0 4%;
+        h1.ingredient-title, h2.ingredient-title {
+            font-size: 1rem;
+            margin-bottom: 1.2rem;
+            font-weight: 400;
+            font-family: $playfair;
             font-style: italic;
         }
-        
+    
         #graham-cracker-crust-ingredients-dish-info-flex-container {
             font-family: $montserrat;
 
-            h2 {
+            /* dish-info */
+            h2.dish-info-li-header, h2#dish-info-yields-h2  {
                 font-weight: 700;
                 color: #BDBDBD;
                 text-transform: uppercase;
@@ -102,6 +105,11 @@ body {
 }
 
 #instructions {
+    margin-top: 1.5rem;
+
+    h1 {
+        margin-bottom: 1rem;
+    }
     p {
         font-size: .7rem;
     }

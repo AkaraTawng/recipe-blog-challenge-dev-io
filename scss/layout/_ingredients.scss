@@ -13,13 +13,26 @@
 
     #graham-cracker-crust-ingredients {
         margin-bottom: 10%;
+        @include laptop {
+             margin-top: 8%;
+        }
 
         #ingredients-label-one {
             align-items: flex-start;
         }
 
-        .graham-cracker-label-content-container {
+        @include laptop {
+            .graham-cracker-label-content-container {
             margin-left: -2%;
+            width: 80%;
+            }
+        }
+    }
+
+    @include laptop {
+        #cheesecake-ingredients {
+            margin-top: -20%;
+            width: 70%;
         }
     }
 }

@@ -97,7 +97,6 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container h2.
   font-weight: 700;
   color: #BDBDBD;
   text-transform: uppercase;
-  color: purple;
   font-size: clamp(0.5rem, -0.175rem + 3vw, 1.4rem);
   white-space: nowrap;
 }
@@ -107,7 +106,6 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container #yi
 body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container p {
   font-weight: 500;
   font-size: clamp(0.5rem, -0.175rem + 3vw, 1.4rem);
-  color: blue;
   white-space: nowrap;
 }
 
@@ -224,6 +222,8 @@ footer p {
 }
 #graham-cracker-crust-ingredients-dish-info-flex-container #dish-info {
   margin: 8% 0 10% 0;
+  display: flex;
+  flex-direction: column;
 }
 @media screen and (min-width: 1280px) {
   #graham-cracker-crust-ingredients-dish-info-flex-container #dish-info {
@@ -234,8 +234,8 @@ footer p {
 }
 #graham-cracker-crust-ingredients-dish-info-flex-container ul {
   display: flex;
-  justify-content: space-around;
-  margin-left: -6%;
+  justify-content: flex-start;
+  margin-left: 1%;
 }
 @media screen and (min-width: 1280px) {
   #graham-cracker-crust-ingredients-dish-info-flex-container ul {
@@ -245,6 +245,7 @@ footer p {
 }
 #graham-cracker-crust-ingredients-dish-info-flex-container ul li {
   display: flex;
+  margin-right: 15%;
 }
 #graham-cracker-crust-ingredients-dish-info-flex-container ul li .dish-info-item-container {
   display: flex;
@@ -276,6 +277,7 @@ footer p {
   margin-bottom: 8%;
   position: relative;
   width: 100%;
+  padding-left: 1%;
 }
 #graham-cracker-crust-ingredients-dish-info-flex-container #yields-flex-container .material-symbols-outlined {
   align-self: center;

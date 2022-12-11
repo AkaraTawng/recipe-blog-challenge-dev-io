@@ -117,6 +117,9 @@ body #ingredients #graham-cracker-crust-ingredients label {
 body #ingredients #cheesecake-ingredients label {
   width: 100%;
 }
+body #ingredients #cheesecake-ingredients #topping-suggestions {
+  font-style: italic;
+}
 
 #instructions {
   margin-top: 3rem;

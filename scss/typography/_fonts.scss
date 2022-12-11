@@ -60,11 +60,13 @@ body {
     }
 
     #ingredients {
-
+         #ingredients-h1 {
+            font-size: clamp(1.2rem, 0.2250rem + 4.3333vw, 2.5rem);
+         }
         /* ingredients */
         margin: 0 4%;
         h1.ingredient-title, h2.ingredient-title {
-            font-size: 1rem;
+            font-size: clamp(1rem, 0.2500rem + 3.3333vw, 2rem);
             margin-bottom: 1.2rem;
             font-weight: 400;
             font-family: $playfair;
@@ -93,6 +95,8 @@ body {
                 white-space: nowrap;
             }
         }
+
+
     }
 }
 

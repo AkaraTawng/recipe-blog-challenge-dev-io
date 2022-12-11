@@ -260,6 +260,7 @@ footer p {
 }
 #graham-cracker-crust-ingredients-dish-info-flex-container .material-symbols-outlined.yields {
   color: #F2994A;
+  font-size: clamp(1rem, -0.5rem + 6.6667vw, 3rem);
 }
 #graham-cracker-crust-ingredients-dish-info-flex-container .material-symbols-outlined.clock {
   font-weight: 400;
@@ -275,11 +276,9 @@ footer p {
   margin-bottom: 8%;
   position: relative;
   width: 100%;
-  margin-left: -1.1rem;
 }
 #graham-cracker-crust-ingredients-dish-info-flex-container #yields-flex-container .material-symbols-outlined {
   align-self: center;
-  font-size: 1.1rem;
   padding-right: 1%;
 }
 

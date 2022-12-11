@@ -46,6 +46,7 @@
         
             &.yields {
             color: $secondary-color;
+            font-size: clamp(1rem, -0.5000rem + 6.6667vw, 3rem);
         }
 
             &.clock {
@@ -67,11 +68,10 @@
         // background-color: rgb(255, 236, 201);
         width: 100%;
         // justify-content: space-around;
-        margin-left: -1.1rem;
+        // margin-left: -1.1rem;
         // margin-left: clamp(-2.2rem, 2rem, 4rem);
         .material-symbols-outlined {
             align-self: center;
-            font-size: 1.1rem;
             padding-right: 1%;
         }
     }

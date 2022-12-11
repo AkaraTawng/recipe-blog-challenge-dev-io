@@ -111,6 +111,12 @@ body #ingredients #graham-cracker-crust-ingredients-dish-info-flex-container p {
   font-size: clamp(0.5rem, -0.175rem + 3vw, 1.4rem);
   white-space: nowrap;
 }
+body #ingredients #graham-cracker-crust-ingredients label {
+  width: 100%;
+}
+body #ingredients #cheesecake-ingredients label {
+  width: 100%;
+}
 
 #instructions {
   margin-top: 3rem;
@@ -178,10 +184,14 @@ footer p {
 #ingredients #graham-cracker-crust-ingredients #ingredients-label-one {
   align-items: flex-start;
 }
+#ingredients #graham-cracker-crust-ingredients .graham-cracker-label-content-container {
+  margin-left: -2%;
+}
 
 .checkbox {
   display: inline-flex;
   align-items: flex-start;
+  margin-right: -40%;
   cursor: pointer;
 }
 .checkbox :hover + .checkbox-box {
@@ -199,8 +209,8 @@ footer p {
   opacity: 1;
 }
 .checkbox .checkbox-box {
-  min-width: 1.1rem;
-  min-height: 1.1rem;
+  height: clamp(1.1rem, 0.92rem + 0.9vw, 2rem);
+  min-width: clamp(1.1rem, 0.92rem + 0.9vw, 2rem);
   border: 1px solid #828282;
   border-radius: 3px;
   display: flex;

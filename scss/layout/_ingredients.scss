@@ -17,12 +17,18 @@
         #ingredients-label-one {
             align-items: flex-start;
         }
+
+        .graham-cracker-label-content-container {
+            margin-left: -2%;
+        }
     }
 }
 
 .checkbox {
     display: inline-flex;
     align-items: flex-start;
+    // background-color: pink;
+    margin-right: -40%;
     cursor: pointer;
 
     :hover + .checkbox-box {
@@ -44,8 +50,12 @@
     }
     
     .checkbox-box {
-        min-width: 1.1rem;
-        min-height: 1.1rem;
+        // min-width: 1.1rem;
+        // min-width: 2rem;
+        // min-height: 1.1rem;
+        // min-height: 2rem;
+        height:  clamp(1.1rem, 0.9200rem + 0.9000vw, 2rem);
+        min-width:  clamp(1.1rem, 0.9200rem + 0.9000vw, 2rem);
         border: 1px solid #828282;
         border-radius: 3px;
         display: flex;

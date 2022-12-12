@@ -132,6 +132,7 @@ body #ingredients #cheesecake-ingredients #topping-suggestions {
 }
 #instructions .instructions-count {
   font-family: "Playfair Display", serif;
+  font-size: clamp(1rem, 0.8rem + 1vw, 2rem);
 }
 #instructions #source-aside {
   font-size: 0.7rem;
@@ -143,7 +144,7 @@ footer p {
 
 /** NOTES
 
-* use clamp for font size
+* use clamp for font size ✅
 *
 *
 */
@@ -341,8 +342,8 @@ footer p {
   counter-increment: instructions;
   padding-right: 5%;
   background-color: #F2994A;
-  width: 20px;
-  height: 20px;
+  width: clamp(1.1rem, 0.84rem + 1.3vw, 2.4rem);
+  height: clamp(1.1rem, 0.84rem + 1.3vw, 2.4rem);
   display: flex;
   border-radius: 3px;
   color: white;

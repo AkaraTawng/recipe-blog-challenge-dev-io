@@ -24,8 +24,8 @@
                     counter-increment: instructions;
                     padding-right: 5%;
                     background-color: $secondary-color;
-                    width: 20px;
-                    height: 20px;
+                    width: clamp(1.1rem, 0.84rem + 1.3vw, 2.4rem);
+                    height: clamp(1.1rem, 0.84rem + 1.3vw, 2.4rem);
                     display: flex;
                     border-radius: 3px;
                     color: white;

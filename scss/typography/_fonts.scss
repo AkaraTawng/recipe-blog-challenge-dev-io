@@ -118,8 +118,6 @@ body {
     margin-top: 3rem;
 
     h1 {
-        // color: blue;
-        // font-size: 2.7rem;
         font-size: clamp(0.1rem, 0.9rem + 2.5vw, 2.7rem);
     }
     p {
@@ -128,6 +126,7 @@ body {
 
     .instructions-count {
         font-family: $playfair;
+        font-size: clamp(1rem, 0.8rem + 1vw, 2rem);
     }
 
     #source-aside {
@@ -143,7 +142,7 @@ footer {
 }
 /** NOTES
 
-* use clamp for font size
+* use clamp for font size ✅
 *
 *
 */

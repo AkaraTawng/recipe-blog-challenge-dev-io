@@ -130,9 +130,16 @@ body {
     }
 
     #source-aside {
-        font-size: .7rem;
-    }
-}
+        * {
+            font-size: clamp(0.5rem, 0.36rem + 0.7vw, 1.2rem);
+        }
+
+        @include laptop {
+            display: flex;
+            
+        }
+     }
+}   
 
 footer {
     

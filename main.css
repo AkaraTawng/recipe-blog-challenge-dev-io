@@ -134,8 +134,13 @@ body #ingredients #cheesecake-ingredients #topping-suggestions {
   font-family: "Playfair Display", serif;
   font-size: clamp(1rem, 0.8rem + 1vw, 2rem);
 }
-#instructions #source-aside {
-  font-size: 0.7rem;
+#instructions #source-aside * {
+  font-size: clamp(0.5rem, 0.36rem + 0.7vw, 1.2rem);
+}
+@media screen and (min-width: 1280px) {
+  #instructions #source-aside {
+    display: flex;
+  }
 }
 
 footer p {

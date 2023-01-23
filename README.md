@@ -44,8 +44,8 @@
 
 
 
-- Go to live [site](https://checkout-page-chris-chamberlain-devio.netlify.app/)
-- See the demo [here](https://devchallenges.io/solutions/OEirVCXdynHGEqKTVJO7)
+- Go to live [site](https://recipe-blog-challenge-dev-io.netlify.app/)
+- See the demo [here](https://devchallenges.io/solutions/8aRBclmL2QXjuM8uDjHb)
 - Two of the main challenges of this project was customizing the checkboxes and responsively transforming the recipe information at the top of the page below the hero image into a small sidebar.  
 
 ### Built With
@@ -61,7 +61,7 @@
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-I developed this checkout pagte as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht) was to build an application to complete the given user stories and replicate the provided Figma design.
+I developed this recipe blog post page as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht) was to build an application to complete the given user stories and replicate the provided Figma design.
 
 
 ## How To Use

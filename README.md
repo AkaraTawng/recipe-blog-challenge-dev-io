@@ -46,11 +46,7 @@
 
 - Go to live [site](https://checkout-page-chris-chamberlain-devio.netlify.app/)
 - See the demo [here](https://devchallenges.io/solutions/OEirVCXdynHGEqKTVJO7)
-- I'm not super familiar with forms, so there was a lot to review and learn when it came to implementing the contact and shipping info form - with both HTML elements and structure, as well as styling. 
-- I didn't want to just hard-code the values in the cart and leave it at that; I wanted to make it functional and realistic. I wanted to include add item, remove item, calculate total and shipping, conditional free shipping (shipping >= $500), and an empty basket notification. I found the JavaScript the most challenging, but also the most interesting and rewarding as when I successfully implemented a feature, I was able to use it and interact with it in the UI.
-- I made the products dynamic by storing my products in an array of objects which I then iterated over and dynamically inserted into an HTML template string. This way, the user can add or remove products to / from the cart.
-- I used the filter array method to remove items from the cart.
-- I conditionally rendered two different HTML template strings based on the shipping cost. If shipping is >= $500, then the UI updates to render the message that the user qualifies for free shipping.
+- Two of the main challenges of this project was customizing the checkboxes and responsively transforming the recipe information at the top of the page below the hero image into a small sidebar.  
 
 ### Built With
 
